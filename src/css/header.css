@@ -1,0 +1,25 @@
+header{
+    font-family: "Comfortaa", sans-serif;
+}
+
+#logo{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-family: "Comfortaa", sans-serif;
+}
+
+#logo:hover {
+    color: #fb6f92;
+    transform: scale(0.98);
+}
+
+li{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    color: #fb6f92;
+    transform: scale(0.98);
+    font: bold;
+}
