@@ -38,7 +38,7 @@ export default function Home() {
       <section className="caja flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 p-4 items-center justify-center flex" id="aboutme">
           <div className="about">
-            <h3 className="">About me</h3>
+            <h3 className="">Sobre mi</h3>
             <p>
               Hola, mi nombre es André Bayona y soy estudiante de Ingeniería de
               Software, con un fuerte interés en el desarrollo Backend y la
