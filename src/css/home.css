@@ -1,5 +1,5 @@
 :root{
-    --characters: 13;
+    --characters: 9;
 }
 
 .caja {
@@ -10,7 +10,7 @@
 }
 
 .caja h2 {
-    font-size: clamp(2.2rem, 6vw, 3em);
+    font-size: 3em;
     font-family: "Roboto", sans-serif;
     color: #fb6f92;
 
@@ -32,16 +32,16 @@
         width: 0;
     }
 
-    15% {        /* pausa antes de escribir */
+    18% {        /* pausa antes de escribir */
         width: 0;
     }
 
-    65% {        /* escritura */
-        width: calc(var(--characters) * 1ch);
+    70% {        /* escritura */
+        width: calc(var(--characters) * 1.25ch);
     }
 
-    85% {        /* pausa después de escribir */
-        width: calc(var(--characters) * 1ch);
+    90% {        /* pausa después de escribir */
+        width: calc(var(--characters) * 1.25ch);
     }
 
     100% {       /* reset limpio */
@@ -110,4 +110,18 @@
 
 .centrando-redes:hover{
     box-shadow: 0 8px 25px #ffb3c6;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        max-width: 960px;
+        align-items: center;
+    }
+
+    .caja{
+        display: flex;
+        margin: auto;
+        padding: 10px 15px;
+        justify-content: center;
+    }
 }
