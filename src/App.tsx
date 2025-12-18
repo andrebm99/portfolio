@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Projects from "./pages/Projects";
 import Snowfall from "react-snowfall";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer /> 
       </BrowserRouter>
     </>
   );
