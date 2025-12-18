@@ -1,9 +1,11 @@
 import "../css/home.css";
 import imgPerfil from "../assets/perfil.jpg"
 
+
 export default function Home() {
   return (
     <main>
+      
       <section className="caja">
         <div className="contenido">
           <p className="texto-ini">Hola, mi nombre es</p>
