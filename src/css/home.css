@@ -1,5 +1,5 @@
 :root{
-    --characters: 12;
+    --characters: 12; /* caracters del nombre */ 
 }
 
 .caja {
@@ -9,11 +9,21 @@
     justify-content: center;
 }
 
+/* ===============================
+   EFECTO TYPEWRITER (ESCRITURA)
+   ===============================
+   - Se usa fuente monoespaciada (JetBrains Mono)
+     para que cada carácter ocupe exactamente 1ch.
+   - La animación se basa en `width + steps()`,
+     revelando un carácter por paso.
+   - `--characters` debe coincidir con la
+     cantidad de letras del texto.
+*/
+
 .caja h2 {
     font-size: 3em;
     font-family: "JetBrains Mono", monospace;
     color: #fb6f92;
-
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;

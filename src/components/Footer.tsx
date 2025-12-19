@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-neutral-primary-soft rounded-base shadow-xs border-t shadow-lg">
+    <footer className="bg-neutral-primary-soft rounded-base border-t shadow-lg">
       <div className="w-full mx-auto max-w-7xl p-10 md:flex md:items-center md:justify-between">
         <span className="text-sm text-white text-body sm:text-center">
           © 2025{" "}
