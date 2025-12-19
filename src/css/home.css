@@ -1,5 +1,5 @@
 :root{
-    --characters: 9;
+    --characters: 12;
 }
 
 .caja {
@@ -11,41 +11,27 @@
 
 .caja h2 {
     font-size: 3em;
-    font-family: "Roboto", sans-serif;
+    font-family: "JetBrains Mono", monospace;
     color: #fb6f92;
 
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-
     border-right: 2px solid #fb6f92; /* cursor */
     width: 0;
 
     animation:
-        typewriter-name 6s steps(var(--characters)) infinite,
+        typewriter-name 3s steps(var(--characters)) forwards,
         blink-name 0.9s step-end infinite;
 }
 
 /* ESCRITURA */
 @keyframes typewriter-name {
-    0% {
+    from {
         width: 0;
     }
-
-    18% {        /* pausa antes de escribir */
-        width: 0;
-    }
-
-    70% {        /* escritura */
-        width: calc(var(--characters) * 1.25ch);
-    }
-
-    90% {        /* pausa después de escribir */
-        width: calc(var(--characters) * 1.25ch);
-    }
-
-    100% {       /* reset limpio */
-        width: 0;
+    to{
+        width: calc(var(--characters) * 1ch);
     }
 }
 
