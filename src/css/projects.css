@@ -15,17 +15,13 @@
     color: white;
 }
 
-.contenedor a{
+.tarjetas{
+    height: 620px;
     transition: transform 0.2s ease;
 }
 
-.contenedor a:hover{
-    transform: scale(1.01);
-    color: black;
-}
-
-.tarjetas{
-    height: 620px;
+.tarjetas:hover{
+    transform: scale(1.02);
 }
 
 @media screen and (max-width: 600px) {

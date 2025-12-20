@@ -31,7 +31,7 @@ export default function Projects() {
             target="_blank"
             type="button"
             rel="noopener noreferrer"
-            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md"
+            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
           >
             Repositorio
           </a>
@@ -68,7 +68,7 @@ export default function Projects() {
             target="_blank"
             type="button"
             rel="noopener noreferrer" /* noopener: seguridad noreferrer: privacidad*/
-            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md"
+            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
           >
             Repositorio
           </a>
@@ -110,7 +110,7 @@ export default function Projects() {
             target="_blank"
             type="button"
             rel="noopener noreferrer"
-            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md"
+            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
           >
             Repositorio
           </a>
