@@ -1,0 +1,21 @@
+.caja {
+    min-height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        max-width: 960px;
+        align-items: center;
+    }
+
+    .caja{
+        display: flex;
+        margin: auto;
+        padding: 10px 15px;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

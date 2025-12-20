@@ -17,7 +17,7 @@ export default function Header() {
       <nav className="max-w-6xl mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <h1 className="text-xl font-bold" id="logo">
-            <Link to='/' className={linkClass("/")}>André Bayona</Link>
+            <a href="/">André Bayona</a>
           </h1>
 
           <button

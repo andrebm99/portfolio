@@ -8,6 +8,10 @@ header{
     font-family: "Comfortaa", sans-serif;
 }
 
+h1{
+    color: #fb6f92;
+}
+
 #logo:hover {
     color: #fb6f92;
     transform: scale(0.98);

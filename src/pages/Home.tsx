@@ -1,9 +1,12 @@
 import "../css/home.css";
 import imgPerfil from "../assets/perfil.jpg";
+import Snowfall from "react-snowfall";
 
 export default function Home() {
   return (
     <main>
+      <Snowfall color="white" />
+
       <section className="caja">
         <div className="contenido">
           <p className="texto-ini">Hola, mi nombre es</p>

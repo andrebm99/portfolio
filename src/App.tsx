@@ -4,14 +4,13 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Projects from "./pages/Projects";
-import Snowfall from "react-snowfall";
+
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Snowfall color="white" />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

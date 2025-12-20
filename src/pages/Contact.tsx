@@ -2,6 +2,8 @@
 
 export default function Contact(){
     return(
-        <div>Contact</div>
+        <section className="caja">
+
+        </section>
     )
 }
