@@ -1,6 +1,7 @@
 import "../css/projects.css";
 import portfolio_ini from "../assets/img/portfolio.png";
 import img_administrador from "../assets/img/administrador.png"; 
+import portafolio_actual from "../assets/img/portafolio_react_nest.png";
 
 export default function Projects() {
   return (
@@ -92,6 +93,69 @@ export default function Projects() {
         </div>
       </div>
       <div className="max-w-sm rounded overflow-hidden shadow-lg tarjetas">
+        <div className="h-48 overflow-hidden rounded-t">
+          <img
+            src={portafolio_actual}
+            alt="Projecto"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="px-6 py-4">
+          <div className="font-bold mb-2">
+            <h3 className="text-xl text-white">Portfolio Actual</h3>
+          </div>
+          <p className="mb-2">
+            Mi portafolio está desarrollado con NestJS para el Backend y React para el Frontend. Utilicé Amazon DynamoDB como base de datos no relacional en la nube. 
+            Para el despliegue de la API, implementé una arquitectura serverless usando AWS Lambda, API Gateway y S3. 
+            Configuré correctamente CORS para garantizar una comunicación segura y eficiente entre el frontend y backend. 
+          </p>
+          <a
+            href="https://github.com/andrebm99/portfolio"
+            target="_blank"
+            type="button"
+            rel="noopener noreferrer" /* noopener: seguridad noreferrer: privacidad*/
+            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
+          >
+            Repositorio
+          </a>
+        </div>
+        <div className="px-6 pt-4 pb-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #NestJS
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #TypeScript
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #React
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #AWS
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #DynamoDB
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Lambda
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #API Gateway
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #S3
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #JWT
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Swagger
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Node.JS
+          </span>
+        </div>
+      </div>
+      <div className="max-w-sm rounded overflow-hidden shadow-lg tarjetas">
         <img
           src={img_administrador}
           alt="Projecto"
@@ -135,7 +199,9 @@ export default function Projects() {
             #MySQL
           </span>
         </div>
+        
       </div>
+      
     </section>
   );
 }
