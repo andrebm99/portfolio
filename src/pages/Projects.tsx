@@ -2,6 +2,7 @@ import "../css/projects.css";
 import portfolio_ini from "../assets/img/portfolio.png";
 import img_administrador from "../assets/img/administrador.png"; 
 import portafolio_actual from "../assets/img/portafolio_react_nest.png";
+import nagova from "../assets/img/nagova.png";
 
 export default function Projects() {
   return (
@@ -20,7 +21,7 @@ export default function Projects() {
             <h3 className="text-xl text-white">Portfolio</h3>
           </div>
           <p className="mb-2">
-            Esta fue primer proyecto web, desarrolado como proyecto académico
+            Este fue mi primer proyecto web, desarrolado como proyecto académico
             para el curso de Taller de Programación Web. A través de este
             proyecto fortalecé mis bases en HTML, CSS y JavaScript,
             comprendiendo la estructura de una web, el estilizado de interfaces
@@ -200,6 +201,58 @@ export default function Projects() {
           </span>
         </div>
         
+      </div>
+
+      <div className="max-w-sm rounded overflow-hidden shadow-lg tarjetas">
+        <div className="h-48 overflow-hidden rounded-t">
+          <img
+            src={nagova}
+            alt="Projecto"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="px-6 py-4">
+          <div className="font-bold mb-2">
+            <h3 className="text-xl text-white">NaGova</h3>
+          </div>
+          <p className="mb-2">
+            Este proyecto corresponde a una tienda de ropa que cuenta con una página de presentación, una sección de tienda y un apartado de contacto. 
+            El backend fue desarrollado con Spring Boot, exponiendo una API contactada a una base de datos MySQL la cual fue desplegada en AWS RDS.
+            El frontend, desarrollado de forma sencilla con HTML, CSS y JavaScript, corresponde a los requerimientos académicos de la universidad.  
+          </p>
+          <a
+            href="https://github.com/andrebm99/portfolio"
+            target="_blank"
+            type="button"
+            rel="noopener noreferrer" /* noopener: seguridad noreferrer: privacidad*/
+            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
+          >
+            Repositorio
+          </a>
+        </div>
+        <div className="px-6 pt-4 pb-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Spring Boot
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #JavaScript
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #CSS
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #HTML
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #AWS
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #RDS
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #MySQL
+          </span>
+        </div>
       </div>
       
     </section>
