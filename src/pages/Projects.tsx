@@ -221,7 +221,7 @@ export default function Projects() {
             El frontend, desarrollado de forma sencilla con HTML, CSS y JavaScript, corresponde a los requerimientos académicos de la universidad.  
           </p>
           <a
-            href="https://github.com/andrebm99/portfolio"
+            href="https://github.com/andrebm99/nagova_web"
             target="_blank"
             type="button"
             rel="noopener noreferrer" /* noopener: seguridad noreferrer: privacidad*/
