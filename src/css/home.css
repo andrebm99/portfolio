@@ -221,8 +221,6 @@
     object-position: center;
 }
 
-
-
 @media screen and (max-width: 600px) {
     main {
         max-width: 960px;
@@ -249,4 +247,18 @@
         grid-template-columns: repeat(2, 1fr);
     }
     
+}
+
+
+@media screen and (max-width: 767px){
+    main{
+        width: 100%;
+    }
+
+    .about{
+        width: 100%;
+    }
+    .about img{
+        display: none;
+    }
 }
