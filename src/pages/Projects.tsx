@@ -28,14 +28,23 @@ export default function Projects() {
             y la creación de scripts para dotar la interactividad de la
             aplicación.
           </p>
-          <a
+            <a
             href="https://github.com/andrebm99/portfolio_andrebm"
             target="_blank"
             type="button"
             rel="noopener noreferrer"
-            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
+            className="inline-flex m-2 items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
           >
             Repositorio
+          </a>
+          <a
+            href="https://andrebm.vercel.app/"
+            target="_blank"
+            type="button"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-indigo-300 text-black px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
+          >
+            Deploy
           </a>
         </div>
         <div className="px-6 pt-4 pb-2">
@@ -171,7 +180,7 @@ export default function Projects() {
             En este proyecto del curso Integrador 1 estuve a cargo del módulo administrativo del sistema. El rol de administrador permite gestionar reservas, registrar habitaciones segun disponibilidad, crear roles para futuros colaboradores y subir URL de Power BI apra la visualización de las finanzas. El sistema está orientado a hoteles que se encuentran en etapa inicial. Además, para este proyecto utilicé un servicio ECS para la gestion de la base de datos MySQL.
           </p>
           <a
-            href="https://github.com/andrebm99/portfolio_andrebm"
+            href="https://github.com/andrebm99/sistema_hoteles_integrador"
             target="_blank"
             type="button"
             rel="noopener noreferrer"
