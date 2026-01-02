@@ -2,4 +2,5 @@
 
 body{
   background-color: #1e2939;
+  scroll-behavior: smooth;  
 }

@@ -44,7 +44,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="inline-flex items-center bg-indigo-300 text-black px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
           >
-            Deploy
+            Despliegue
           </a>
         </div>
         <div className="px-6 pt-4 pb-2">
