@@ -17,7 +17,8 @@
 }
 
 .tarjetas {
-  height: 620px;
+  min-height: 620px;
+  max-height: 800px;
   transition: transform 0.2s ease;
 }
 
