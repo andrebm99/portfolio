@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../css/contact.css";
 
 export default function Contact() {
   {
@@ -56,7 +57,7 @@ export default function Contact() {
       <form onSubmit={handleSubmit} className="w-full max-w-md space-y-8">
         {/* Title */}
         <div className="text-center">
-          <h2 className="text-2xl font-semibold text-white">Contáctame</h2>
+          <h4 className="text-caja">Contáctame</h4>
           <p className="mt-2 text-sm text-neutral-400">
             Te responderé lo antes posible
           </p>

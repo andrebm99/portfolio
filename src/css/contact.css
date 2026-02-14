@@ -5,6 +5,15 @@
     justify-content: center;
 }
 
+h4 {
+    font-size: 3em;
+    font-family: "JetBrains Mono", monospace;
+    color: #fb6f92;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 600px) {
     main {
         max-width: 960px;
