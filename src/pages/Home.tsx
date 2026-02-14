@@ -111,7 +111,7 @@ export default function Home() {
 
           <div className="shortcut">
             <img
-              src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png"
+              src="https://images.vexels.com/media/users/3/166401/isolated/preview/b82aa7ac3f736dd78570dd3fa3fa9e24-icono-del-lenguaje-de-programacion-java.png"
               alt="Java"
             />
             Java
