@@ -3,6 +3,7 @@ import portfolio_ini from "../assets/img/portfolio.png";
 import img_administrador from "../assets/img/administrador.png"; 
 import portafolio_actual from "../assets/img/portafolio_react_nest.png";
 import nagova from "../assets/img/nagova.png";
+import otama from "../assets/img/otama.png"
 
 export default function Projects() {
   return (
@@ -263,6 +264,51 @@ export default function Projects() {
           </span>
         </div>
       </div>
+
+      <div className="max-w-sm rounded overflow-hidden shadow-lg tarjetas">
+        <div className="h-48 overflow-hidden rounded-t">
+          <img
+            src={otama}
+            alt="Projecto"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="px-6 py-4">
+          <div className="font-bold mb-2">
+            <h3 className="text-xl text-white">OTAMA CARGA</h3>
+          </div>
+          <p className="mb-2">
+            Proyecto web desarrollado para OTAMA CARGA S.A.C. con interfaz intuitiva y moderna. Stack Tecnológico: React, Next.js y arquitectura serverless en AWS(backend) con despliegue en Vercel(frontend), garantiando una solución robusta y preparada para el futuro.  
+          </p>
+          <a
+            href="https://www.otamacarga.com/"
+            target="_blank"
+            type="button"
+            rel="noopener noreferrer" /* noopener: seguridad noreferrer: privacidad*/
+            className="inline-flex items-center bg-red-500 text-white px-4 py-2 rounded-md transition-transform duration-100 ease-out active:scale-[0.94]"
+          >
+            Deploy
+          </a>
+        </div>
+        <div className="px-6 pt-4 pb-2">
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #React
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Tailwind
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #CSS
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Vercel
+          </span>
+          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            #Email
+          </span>
+        </div>
+      </div>
+      
       
     </section>
   );
