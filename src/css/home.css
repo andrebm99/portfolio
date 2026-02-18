@@ -222,14 +222,13 @@
 
 @media screen and (max-width: 600px) {
   main {
-    max-width: 960px;
     align-items: center;
   }
 
   .caja {
     display: flex;
     margin: auto;
-    padding: 10px 15px;
+    padding: 5px;
     justify-content: center;
     flex-direction: column;
   }
@@ -239,7 +238,9 @@
   }
 
   .about {
-    width: 100vw;
+    width: 100%;
+    padding: 0px;
+    text-align: justify;
   }
 
   .about img {
